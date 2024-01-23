@@ -1,5 +1,15 @@
 # RISC-V RV32I Processor
 
+## Introduction
+
+This repository contains the RISC-V CPU developed as part of the Instruction 
+Set Architecture and Compilers coursework completed in December 2023. The CPU
+passes all of the custom test cases and can be used as a reference for setting
+up a minimalistic CPU project. 
+
+The original team statement has been left here, if you have any questions or 
+suggestions, please feel free to reach out to me! 
+
 ## Team 24 Statement
 
 | Kevin Lau (repo manager) | William Huynh | James Mitchell | Noam Weitzman |
@@ -12,10 +22,10 @@ Our team has successfully completed and verified the following for our RV32I
 
 | Tag                                                            | Description  | Statement |
 | -------------------------------------------------------------- |------------- |-----------|
-| [v0.1.0](https://github.com/booth-algo/RISC-V-T24/tree/v0.1.0) | Lab4         | [lab4.md](./docs/team_statement_sections/lab4.md) | 
-| [v0.2.0](https://github.com/booth-algo/RISC-V-T24/tree/v0.2.0) | Single-Cycle | [single_cycle.md](./docs/team_statement_sections/single_cycle.md) |
-| [v0.3.0](https://github.com/booth-algo/RISC-V-T24/tree/v0.3.0) | Pipelined    | [pipeline.md](./docs/team_statement_sections/pipeline.md) |
-| [v0.4.0](https://github.com/booth-algo/RISC-V-T24/tree/v0.4.0) | Direct-mapped Cache | [cache.md](./docs/team_statement_sections/cache.md) |
+| [v0.1.0](https://github.com/saturn691/riscv-cpu/tree/v0.1.0) | Lab4         | [lab4.md](./docs/team_statement_sections/lab4.md) | 
+| [v0.2.0](https://github.com/saturn691/riscv-cpu/tree/v0.2.0) | Single-Cycle | [single_cycle.md](./docs/team_statement_sections/single_cycle.md) |
+| [v0.3.0](https://github.com/saturn691/riscv-cpu/tree/v0.3.0) | Pipelined    | [pipeline.md](./docs/team_statement_sections/pipeline.md) |
+| [v0.4.0](https://github.com/saturn691/riscv-cpu/tree/v0.4.0) | Direct-mapped Cache | [cache.md](./docs/team_statement_sections/cache.md) |
 
 #### Important Notes ####
 - We are especially proud of our `testbench`, which has been a major contributor 
@@ -146,24 +156,23 @@ Note: The following evidence was collected from running `tag v0.4.0`, the
 
 F1 lights
 
-https://github.com/booth-algo/RISC-V-T24/assets/107279223/7ba429f9-0615-4acf-bf2c-6efdae65fc95
+https://github.com/saturn691/riscv-cpu/assets/113542065/47bdb86d-9432-4b09-b8d3-1eca50fd94d1
 
 Gaussian
 
-https://github.com/booth-algo/RISC-V-T24/assets/107279223/ae81e89a-4829-4060-a14d-17d87582065d
+https://github.com/saturn691/riscv-cpu/assets/113542065/e2ddeb9f-5459-448d-9013-a31a7ee3385a
 
 Sine
 
-https://github.com/booth-algo/RISC-V-T24/assets/107279223/a9c6b198-6e7f-49ab-9ae8-99291412456b
+https://github.com/saturn691/riscv-cpu/assets/113542065/1701df8b-4bd5-4583-9b5c-00d46e6df3fd
 
 Triangle
 
-https://github.com/booth-algo/RISC-V-T24/assets/107279223/46700d7b-6817-48e7-a547-8d06d6d3c28a
+https://github.com/saturn691/riscv-cpu/assets/113542065/d8d6570c-f71a-4b79-a7a8-ccc7cf461325
 
 Noisy
 
-https://github.com/booth-algo/RISC-V-T24/assets/107279223/bfe780a5-3d4b-4b68-b6db-5aa5694de6ce
-
+https://github.com/saturn691/riscv-cpu/assets/113542065/dbd4aa73-7de3-4bd0-8530-87e3823a5bdf
 
 ## Team Contribution
 
